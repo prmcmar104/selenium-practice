@@ -37,6 +37,5 @@ public class LocatorDemo2 {
             WebElement passwordField = driver.findElement(By.name("Password"));
             passwordField.sendKeys("Prime123");
 
-
         }
 }

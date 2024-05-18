@@ -1,0 +1,20 @@
+1. Java Revision
+2. Selenium Introduction
+3. Selenium IDE
+4. Browser Testing
+    4.1 Chrome Browser
+    4.2 Multi Browser
+5. Selenium Methods
+	5.1 get()
+	5.2 maximise()
+	5.3 implicitlyWait()
+	5.4 getTitle()
+	5.5 getCurrentUrl()
+	5.6 getPageSource()
+	5.7 navigate().to()
+	5.8 navigate().back()
+	5.9 navigate().refresh()
+	5.10 navigate().forward()
+	5.11 quit()
+	5.12 close()
+6. Locators
