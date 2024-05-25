@@ -1,0 +1,46 @@
+What is xpath?
+xpath is define as xml path.
+it is a syntax or language for finding any element on the web page using XML path expression.
+Xpath is used to find the location of any element on web page using HTML dom structure.
+Xpath can be used to navigate through elements and attributes in DOM (Document Object Model).
+
+Type of Xpath:
+1. Absolute xpath / Full xpath
+/html/body/div[6]/div[1]/div[2]/div[2]/form/input
+2. Relative xpath / Partial xpath
+//input[@id= 'small-searchterms']
+
+Syntax: //tagName[@attribute = 'value']
+
+Diff Between Absolute & Relative xpath
+1. Absolute xpath start from root node        | Relative xpath directly jump to element on DOM
+2. Absolute xpath start with / (single slash) | Relative xpath start with // (double slash)
+3. In Absolute xml we use only tag/nodes      | In Relative xpath we use attributes
+
+Xpath Options
+----------------
+or
+and
+contains()
+starts-with()
+text()
+chained xpath
+----------------
+Xpath axis
+	Self
+	Parent
+	Child
+	Ancestor
+	Descendant
+	Following
+	Following-sibling
+	Preceding
+	Preceding-sibling
+---------------------------
+Relative Locator.
+1. above
+2. below
+3. near
+4. toRightOf
+5. toLeftOf
+
