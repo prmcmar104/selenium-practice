@@ -20,7 +20,7 @@ public class BaseTest {
         //Maximise Browser
         driver.manage().window().maximize();
         // We give Implicit wait to Driver
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
     }
 
     public void closeBrowser(){
